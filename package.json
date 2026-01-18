@@ -1,5 +1,6 @@
 {
   "name": "4-mini-project",
+  "homepage": "https://mehul-gupta24.github.io/WeatherReactApp/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predelpoy" :"npm run build",
+    "deploy" :"gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -15,6 +18,7 @@
     "@fontsource/roboto": "^5.2.9",
     "@mui/icons-material": "^7.3.7",
     "@mui/material": "^7.3.7",
+    "gh-pages": "^6.3.0",
     "install": "^0.13.0",
     "npm": "^11.7.0",
     "react": "^18.3.1",

@@ -4,7 +4,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import "./InfoBox.css"
 
-export default function InfoBox({result}){
+export default function InfoBox( {result} ){
 
     const hotImg = "https://tripuranewslive.com/wp-content/uploads/2024/04/IMG-20240402-WA0000.jpg"
     const coldImg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr6CWHJUDTgJeCCTUDxDoGtUIhU-zoKiXnyA&s"
